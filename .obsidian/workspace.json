@@ -11,10 +11,11 @@
             "id": "80756c831a435215",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "CS3/linuxtuning/commands/dumpe2fs.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CS3/linuxtuning/commands/dumpe2fs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CS3/linuxtuning/commands/dumpe2fs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CS3/linuxtuning/commands/dumpe2fs.md"
+              }
             }
           },
           {
@@ -152,6 +157,8 @@
   },
   "active": "80756c831a435215",
   "lastOpenFiles": [
+    "CS3/linuxtuning/commands/df.md",
+    "CS3/linuxtuning/commands/cpulimit.md",
     "CS3/linuxtuning/commands/systemctl.md",
     "CS3/all commands.md",
     "CS3/linuxtuning/commands/sysctl.md",
@@ -160,7 +167,6 @@
     "CS3/linuxtuning/commands/tune2fs.md",
     "CS3/linuxtuning/commands/update-grub.md",
     "CS3/linuxtuning/commands/logger.md",
-    "CS3/linuxtuning/commands/cpulimit.md",
     "CS3/linuxtuning/commands/ulimit.md",
     "templates/command.md",
     "CS3/linuxtuning/Linux tuning.md",
@@ -181,7 +187,6 @@
     "CS3/linuxtuning/commands/ifconfig.md",
     "CS3/linuxtuning/commands/iostat.md",
     "CS3/linuxtuning/commands/netstat.md",
-    "CS3/linuxtuning/commands/hdparm.md",
     "CS3/linuxtuning/commands",
     "CS3/linuxtuning",
     "templates",
