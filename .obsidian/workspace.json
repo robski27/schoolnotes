@@ -11,12 +11,8 @@
             "id": "80756c831a435215",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "CS3/linuxtuning/commands/dumpe2fs.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CS3/linuxtuning/commands/dumpe2fs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CS3/linuxtuning/commands/dumpe2fs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "CS3/linuxtuning/commands/dumpe2fs.md"
-              }
+              "state": {}
             }
           },
           {
@@ -138,11 +130,12 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,12 +148,13 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "80756c831a435215",
+  "active": "77769a9b243af73f",
   "lastOpenFiles": [
+    "CS3/all commands.md",
+    "CS3/linuxtuning/commands/dumpe2fs.md",
     "CS3/linuxtuning/commands/df.md",
     "CS3/linuxtuning/commands/cpulimit.md",
     "CS3/linuxtuning/commands/systemctl.md",
-    "CS3/all commands.md",
     "CS3/linuxtuning/commands/sysctl.md",
     "CS3/linuxtuning/commands/modinfo.md",
     "CS3/linuxtuning/commands/lsmod.md",
@@ -186,7 +180,6 @@
     "Pasted image 20240921154830.png",
     "CS3/linuxtuning/commands/ifconfig.md",
     "CS3/linuxtuning/commands/iostat.md",
-    "CS3/linuxtuning/commands/netstat.md",
     "CS3/linuxtuning/commands",
     "CS3/linuxtuning",
     "templates",
