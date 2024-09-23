@@ -1,3 +1,4 @@
  - [ ] db connectie via powershell
  - [ ] mogelijk handmatig via menu
  - [ ] db: studenten ,cursussen, inschijvingen, aanwezigheden
+ - [ ]  mail opt git commit
