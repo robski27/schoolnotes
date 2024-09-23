@@ -1,17 +1,17 @@
 {
   "main": {
-    "id": "bfe3104c942f233e",
+    "id": "1717be4900e6d130",
     "type": "split",
     "children": [
       {
-        "id": "0ec9bebd6219b190",
+        "id": "ff32789681503257",
         "type": "tabs",
         "children": [
           {
-            "id": "80756c831a435215",
+            "id": "8b15ac023da66efc",
             "type": "leaf",
             "state": {
-              "type": "graph",
+              "type": "empty",
               "state": {}
             }
           }
@@ -21,15 +21,15 @@
     "direction": "vertical"
   },
   "left": {
-    "id": "9bc6ff9597cd5d31",
+    "id": "30eaa0dc8febab02",
     "type": "split",
     "children": [
       {
-        "id": "925c87311143fcc1",
+        "id": "303baffa6c55a296",
         "type": "tabs",
         "children": [
           {
-            "id": "77769a9b243af73f",
+            "id": "4e184ae7d862ae9c",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -39,7 +39,7 @@
             }
           },
           {
-            "id": "c7f3cca3d5011d64",
+            "id": "1e768c5176601b49",
             "type": "leaf",
             "state": {
               "type": "search",
@@ -54,7 +54,7 @@
             }
           },
           {
-            "id": "a836193bce172f57",
+            "id": "20463b0f78fa2e6f",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -68,15 +68,15 @@
     "width": 300
   },
   "right": {
-    "id": "30bcba031791f5e7",
+    "id": "51fa5ee271cea4e3",
     "type": "split",
     "children": [
       {
-        "id": "502610a4a1c8fce0",
+        "id": "3a7f7f7083e65d66",
         "type": "tabs",
         "children": [
           {
-            "id": "5547f247db279f77",
+            "id": "6865af352e70ef9e",
             "type": "leaf",
             "state": {
               "type": "backlink",
@@ -92,7 +92,7 @@
             }
           },
           {
-            "id": "e3722b1dcd882ad8",
+            "id": "1ef418defb6fcc94",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
@@ -103,7 +103,7 @@
             }
           },
           {
-            "id": "fc70fc25f967a910",
+            "id": "1a34ac912abea161",
             "type": "leaf",
             "state": {
               "type": "tag",
@@ -114,27 +114,19 @@
             }
           },
           {
-            "id": "2c097ba3c02bd486",
+            "id": "24de41e6ae5b8588",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {}
             }
-          },
-          {
-            "id": "cc1b11f1e84dd0bf",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -143,49 +135,9 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "obsidian-git:Open Git source control": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "80756c831a435215",
-  "lastOpenFiles": [
-    "CS3/all commands.md",
-    "CS3/linuxtuning/Linux tuning.md",
-    "CS3/linuxtuning/commands/accton.md",
-    "IP2/TODO.md",
-    "IP2",
-    "CS3/LVM/LVM.md",
-    "Pasted image 20240923075001.png",
-    "CS3/linuxtuning/commands/dumpe2fs.md",
-    "CS3/linuxtuning/commands/df.md",
-    "CS3/linuxtuning/commands/cpulimit.md",
-    "CS3/linuxtuning/commands/systemctl.md",
-    "CS3/linuxtuning/commands/sysctl.md",
-    "CS3/linuxtuning/commands/modinfo.md",
-    "CS3/linuxtuning/commands/lsmod.md",
-    "CS3/linuxtuning/commands/tune2fs.md",
-    "CS3/linuxtuning/commands/update-grub.md",
-    "CS3/linuxtuning/commands/logger.md",
-    "CS3/linuxtuning/commands/ulimit.md",
-    "templates/command.md",
-    "CS3/LVM",
-    "CS3/linuxtuning/commands/monit.md",
-    "CS3/linuxtuning/commands/systemd-analyze.md",
-    "CS3/linuxtuning/commands/uptime.md",
-    "CS3/linuxtuning/commands/last.md",
-    "CS3/linuxtuning/commands/w.md",
-    "CS3/linuxtuning/commands/xev.md",
-    "CS3/linuxtuning/commands/x11perf.md",
-    "CS3/linuxtuning/commands/ip.md",
-    "CS3/linuxtuning/commands/lsof.md",
-    "Pasted image 20240921134154.png",
-    "Pasted image 20240921154838.png",
-    "Pasted image 20240921154830.png",
-    "CS3/linuxtuning/commands",
-    "CS3/linuxtuning",
-    "templates",
-    "Linux tuning  - Ubuntu-1 (1).odt",
-    "Untitled/Untitled",
-    "CS3"
-  ]
+  "active": "6865af352e70ef9e",
+  "lastOpenFiles": []
 }
