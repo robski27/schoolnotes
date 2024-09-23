@@ -130,12 +130,11 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -148,7 +147,7 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "80756c831a435215",
+  "active": "cc1b11f1e84dd0bf",
   "lastOpenFiles": [
     "IP2/TODO.md",
     "CS3/all commands.md",
