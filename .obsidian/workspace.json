@@ -11,12 +11,8 @@
             "id": "80756c831a435215",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "IP2/TODO.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -85,7 +81,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "IP2/TODO.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +97,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "IP2/TODO.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +118,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "IP2/TODO.md"
-              }
+              "state": {}
             }
           },
           {
@@ -158,8 +150,8 @@
   },
   "active": "80756c831a435215",
   "lastOpenFiles": [
-    "CS3/all commands.md",
     "IP2/TODO.md",
+    "CS3/all commands.md",
     "IP2",
     "CS3/LVM/LVM.md",
     "Pasted image 20240923075001.png",
