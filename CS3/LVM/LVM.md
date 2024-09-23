@@ -6,3 +6,5 @@ stappen voor LVM te maken:
 3. logische volumes maken
 4. OS erop zetten
 
+
+![[Pasted image 20240923075001.png]]

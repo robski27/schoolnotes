@@ -11,8 +11,12 @@
             "id": "80756c831a435215",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CS3/LVM/LVM.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CS3/LVM/LVM.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CS3/LVM/LVM.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CS3/LVM/LVM.md"
+              }
             }
           },
           {
@@ -148,8 +156,9 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "77769a9b243af73f",
+  "active": "80756c831a435215",
   "lastOpenFiles": [
+    "Pasted image 20240923075001.png",
     "CS3/all commands.md",
     "CS3/linuxtuning/commands/dumpe2fs.md",
     "CS3/linuxtuning/commands/df.md",
@@ -179,7 +188,6 @@
     "Pasted image 20240921154838.png",
     "Pasted image 20240921154830.png",
     "CS3/linuxtuning/commands/ifconfig.md",
-    "CS3/linuxtuning/commands/iostat.md",
     "CS3/linuxtuning/commands",
     "CS3/linuxtuning",
     "templates",
