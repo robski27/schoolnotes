@@ -3,3 +3,4 @@
  - [ ] db: studenten ,cursussen, inschijvingen, aanwezigheden
  - [ ]  mail 
  - [ ] nog iets anders?
+ - [ ] nog?
