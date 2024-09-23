@@ -11,8 +11,12 @@
             "id": "80756c831a435215",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "CS3/all commands.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -81,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "CS3/all commands.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -97,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "CS3/all commands.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -118,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "CS3/all commands.md"
+              }
             }
           },
           {
@@ -147,8 +155,10 @@
       "obsidian-git:Open Git source control": false
     }
   },
-  "active": "cc1b11f1e84dd0bf",
+  "active": "77769a9b243af73f",
   "lastOpenFiles": [
+    "CS3/linuxtuning/Linux tuning.md",
+    "CS3/linuxtuning/commands/accton.md",
     "IP2/TODO.md",
     "CS3/all commands.md",
     "IP2",
@@ -166,7 +176,6 @@
     "CS3/linuxtuning/commands/logger.md",
     "CS3/linuxtuning/commands/ulimit.md",
     "templates/command.md",
-    "CS3/linuxtuning/Linux tuning.md",
     "CS3/LVM",
     "CS3/linuxtuning/commands/monit.md",
     "CS3/linuxtuning/commands/systemd-analyze.md",
@@ -180,7 +189,6 @@
     "Pasted image 20240921134154.png",
     "Pasted image 20240921154838.png",
     "Pasted image 20240921154830.png",
-    "CS3/linuxtuning/commands/ifconfig.md",
     "CS3/linuxtuning/commands",
     "CS3/linuxtuning",
     "templates",
