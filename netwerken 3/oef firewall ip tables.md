@@ -9,9 +9,11 @@
 a) Ping van de machine A naar machine B.  
 Om te kijken of het sniffen werkt start je op machine B het programma tcpdump.  
 Stel nu je ping in zodat je 100 pings per seconde doet. Met welk commando kan dit?
+ip -i 0.01 192.168.66.3
 
 b) Doe een nslookup van bv www.kdg.be  
 Je moet een antwoord van een DNS server krijgen met het IP adres van www.kdg.be
+185.135.13.159
 
  Iptables zit in de kernel gecompileerd. Standaard komt de iptables log dus terecht in de systeemlog /var/log/syslog en/of in de kernel log /var/log/kern.log
 
