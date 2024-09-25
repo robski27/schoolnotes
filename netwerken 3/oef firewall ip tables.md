@@ -23,19 +23,26 @@ Je moet een antwoord van een DNS server krijgen met het IP adres van www.kdg.be
 
 **iptables -F INPUT  
 iptables -F OUTPUT  
-****iptables -Z****iptables -P INPUT DROP  
+****iptables -Z****
+iptables -P INPUT DROP  
 iptables -P OUTPUT DROP  
 iptables -A OUTPUT -p tcp --destination-port** **80** **-j ACCEPT  
 iptables -A INPUT -p tcp --source-port** **80** **--dport 1025:65535 -j ACCEPT  
 iptables -L -n** **-v**
 
 4. Welke iptables commando's aan het begin van het script maken alle chains leeg?
+**iptables -F INPUT  
+iptables -F OUTPUT**
 
-5. Welke iptables commando's aan het begin van je script stellen alle default policies in op DROP?
 
-6. We gaan nu de UDP aanvraag voor de nslookup loggen met iptables. Zoek zelf op met welke iptables regel je dit kan doen. gebruik een eigen log-prefix 'UDP IPTABLES' . Kijk na of je nslookup gelogd wordt.
+6. Welke iptables commando's aan het begin van je script stellen alle default policies in op DROP?
+	***iptables -P INPUT DROP  
+	iptables -P OUTPUT DROP
 
-7. Test op de Host Only interface een ip v6 ping uit tussen de machines (bv ping -6 -I enp0s8 fe80......)  
+7. We gaan nu de UDP aanvraag voor de nslookup loggen met iptables. Zoek zelf op met welke iptables regel je dit kan doen. gebruik een eigen log-prefix 'UDP IPTABLES' . Kijk na of je nslookup gelogd wordt.
+8. 
+
+9. Test op de Host Only interface een ip v6 ping uit tussen de machines (bv ping -6 -I enp0s8 fe80......)  
 Schrijf regels die wel een v6 ping blokkeren maar niet een v4 ping
 
   
