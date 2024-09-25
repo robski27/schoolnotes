@@ -40,7 +40,7 @@ iptables -F OUTPUT**
 	iptables -P OUTPUT DROP
 
 7. We gaan nu de UDP aanvraag voor de nslookup loggen met iptables. Zoek zelf op met welke iptables regel je dit kan doen. gebruik een eigen log-prefix 'UDP IPTABLES' . Kijk na of je nslookup gelogd wordt.
-8. 
+	***iptables -A OUTPUT  -j LOG --log-prefix "UDP IPTABLES"***
 
 9. Test op de Host Only interface een ip v6 ping uit tussen de machines (bv ping -6 -I enp0s8 fe80......)  
 Schrijf regels die wel een v6 ping blokkeren maar niet een v4 ping
