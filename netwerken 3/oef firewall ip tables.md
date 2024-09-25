@@ -44,10 +44,10 @@ iptables -F OUTPUT**
 
 9. Test op de Host Only interface een ip v6 ping uit tussen de machines (bv ping -6 -I enp0s8 fe80......)  
 Schrijf regels die wel een v6 ping blokkeren maar niet een v4 ping
-
+/
   
 8. Installeer het tooltje nemesis. Opgelet deze gebruikt ook het pakket libnet1 (zie referentie) Zoek op met welk commando je een DNS aanvraag kan doen. Doe opnieuw een DNS aanvraag. (man nemesis-dns geeft een manual page)
-
+	
   
 9. Maak een iptables regel waarmee je een limiet legt op het aantal icmp pakketten per seconde. Stel maximum 1 per seconde in met een burst van 5. Log dit met prefix 'ICMP IPTABLES'. Test nu uit of je ping van 100 per seconde gedetecteerd wordt.
 
