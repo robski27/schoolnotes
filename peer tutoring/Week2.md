@@ -1,4 +1,4 @@
-
+#peertutoring
 Oefeningen Linux week 2  
 2.1 Paden  
 Hieronder zie je een lijst van paden. Welke paden zijn relatief, absoluut of fout in  
@@ -12,8 +12,8 @@ Linux?
 7. ../../etc  
 8. /etc/cron.d  
 9. \usr\bin  
-10.Downloads  
-2.2 Eenvoudige commando's  
+## 10.Downloads  
+## 2.2 Eenvoudige commando's  
 ### 1. Wat is de eenvoudigste wijze om een lijst van alle commando's te krijgen die beginnen met "pdf" ?  
 ```bash
 compgen -c pdf
