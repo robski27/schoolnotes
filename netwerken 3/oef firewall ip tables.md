@@ -56,7 +56,7 @@ iptables -A INPUT -p icmp -m limit --limit 1/second --limit-burst 5 -j ACCEPT
 
 
 10. Schrijf een loopscriptje in shell dat met nemesis-icmp pings doet (deze pings wachten niet op een reply en zullen dus zo snel mogelijk uitgevoerd worden). 
-
+	sudo nemesis icmp -D 192.168.66.3 -qE -c 0; echo $?
 
 11. Maak met nemesis nu een DNS request met als SRC en DST adres je eigen adres. Komt er iets speciaal in de log?
 
