@@ -51,6 +51,7 @@ Schrijf regels die wel een v6 ping blokkeren maar niet een v4 ping
   
 9. Maak een iptables regel waarmee je een limiet legt op het aantal icmp pakketten per seconde. Stel maximum 1 per seconde in met een burst van 5. Log dit met prefix 'ICMP IPTABLES'. Test nu uit of je ping van 100 per seconde gedetecteerd wordt.
 
+
 10. Schrijf een loopscriptje in shell dat met nemesis-icmp pings doet (deze pings wachten niet op een reply en zullen dus zo snel mogelijk uitgevoerd worden). 
 
 11. Maak met nemesis nu een DNS request met als SRC en DST adres je eigen adres. Komt er iets speciaal in de log?
