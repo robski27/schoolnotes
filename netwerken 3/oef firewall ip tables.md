@@ -70,8 +70,10 @@ iptables -A INPUT -p icmp -m limit --limit 1/second --limit-burst 5 -j ACCEPT
 15. Stel een zo strikt mogelijke ACL in op je Linux waarmee je zorgt dat je Linux kan pingen naar een andere computer, maar niemand naar je Linux.
 
 16. Installeer en start de apache webserversudo apt-get install apache2/etc/init.d/apache2 start(Kijk even na in een browser of er op jou IP adres een website draait)Zorg er nu, via iptables voor dat mensen die op poort 8080 verbinden ook de website te zien krijgen van poort 80.
-
-17. Installeer een ftp server (bv vsftpd) Installeer en start wireshark.  
+```bash
+sudo iptables -t nat -A PREROUTING -p tcp --dport 8080 -j REDIRECT --to-port 80
+```
+18. Installeer een ftp server (bv vsftpd) Installeer en start wireshark.  
 a) Test uit of je een passieve ftp sessie kan starten naar je server (als gui kan je filezilla installeren).Bekijk in wireshark de initiele handshake tussen de client en de FTP server.Noteer volgende informatie van alle pakketten en de richting:SRC IP/SRC PORT/DST IP/DST PORT  
 b) Test uit of je actieve ftp kan starten naar de serverBekijk in wireshark de initiele handshake tussen de client en de FTP server. Noteer volgende informatie van alle pakketten en de richting:SRC IP/SRC PORT/DST IP/DST PORT. Schrijf zo strikt mogelijke regels 
 
