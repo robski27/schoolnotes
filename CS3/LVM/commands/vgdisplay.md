@@ -3,7 +3,7 @@ description: display the volume groups
 week: "1"
 usage: |-
   ````bash 
-  vgdisplay
+  vgdisplay [volumeGroup]
 tags:
   - command
   - CS3

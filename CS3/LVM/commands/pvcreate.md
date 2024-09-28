@@ -7,5 +7,6 @@ usage: |-
 tags:
   - command
   - CS3
+  - LVM
 ---
 ## extra info:

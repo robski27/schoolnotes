@@ -7,7 +7,7 @@ usage: |-
 tags:
   - command
   - CS3
-  - linuxTuning
+  - LVM
 ---
 ## extra info:
 
