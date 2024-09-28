@@ -1,4 +1,4 @@
-#CS3
+#CS3 #LVM 
 
 stappen voor LVM te maken:
 1. fysieke schijven declareren 
@@ -11,5 +11,7 @@ stappen voor LVM te maken:
 
 ## commands
 
+```dataview
 
-[[#lsblk ]]
+from 
+```
