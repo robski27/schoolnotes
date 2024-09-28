@@ -12,4 +12,4 @@ stappen voor LVM te maken:
 ## commands
 
 
-	[yes](../linuxtuning/ip.md)
+[[#lsblk ]]

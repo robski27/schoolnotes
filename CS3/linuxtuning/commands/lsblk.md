@@ -1,12 +1,13 @@
 ---
-description: manage services
+description: lists the partitions and drives in the current computer
 week: "1"
 usage: |-
   ````bash 
-  systemctl [options]
+  lsblk
 tags:
   - command
   - CS3
   - linuxTuning
 ---
 ## extra info:
+
