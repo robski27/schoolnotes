@@ -12,6 +12,6 @@ stappen voor LVM te maken:
 ## commands
 
 ```dataview
-
-from 
+table description, usage, file.tags as tags
+from "CS3/LVM/commands"
 ```
