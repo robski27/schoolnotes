@@ -8,3 +8,8 @@ stappen voor LVM te maken:
 
 
 ![[Pasted image 20240923075001.png]]
+
+## commands
+
+
+	[yes](../linuxtuning/ip.md)
