@@ -17,15 +17,16 @@ ls | wc >> /tmp/aantal
 ```bash
 ls ../ >> homedirectories
 ```
-
 5. Geef een gesorteerde lijst van de regels die in het bestand /etc/passwd staan,  
 en schrijf het weg in een bestand passwd_sort.txt op je desktop
-
 ```bash
-
+cat /etc/passwd | sort >> sort_passwd.txt
 ```
-5. Schrijf de manual pagina van de passwd file weg naar “/tmp/passwdmanual”  
-6. Wat is het verschil tussen:  
+6. Schrijf de manual pagina van de passwd file weg naar “/tmp/passwdmanual”  
+```bash
+man passwd >> /tmp/passwdmanual
+```
+8. Wat is het verschil tussen:  
 grep root /etc/* 2>&1 >file  
 grep root /etc/* >file 2>&1  
 3.2 Variabelen  
