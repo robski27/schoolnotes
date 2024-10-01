@@ -14,8 +14,16 @@ ls | wc >> /tmp/aantal
 ```
 4. Toon de inhoud van “/home” directory en schrijf deze weg in de file  
 “homedirectories”. Gebruik hiervoor een relatief pad vanaf je home-folder.  
-4. Geef een gesorteerde lijst van de regels die in het bestand /etc/passwd staan,  
-en schrijf het weg in een bestand passwd_sort.txt op je desktop  
+```bash
+ls ../ >> homedirectories
+```
+
+5. Geef een gesorteerde lijst van de regels die in het bestand /etc/passwd staan,  
+en schrijf het weg in een bestand passwd_sort.txt op je desktop
+
+```bash
+
+```
 5. Schrijf de manual pagina van de passwd file weg naar “/tmp/passwdmanual”  
 6. Wat is het verschil tussen:  
 grep root /etc/* 2>&1 >file  
