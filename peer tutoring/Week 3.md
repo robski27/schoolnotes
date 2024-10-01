@@ -1,4 +1,4 @@
-3.1 Redirecting en pipelining  
+## 3.1 Redirecting en pipelining  
 1. Wat doet volgend commando: echo "Hello, world!" | figlet  
 ```bash
 echo "Hello, world!" | figlet 
@@ -29,10 +29,29 @@ man passwd >> /tmp/passwdmanual
 8. Wat is het verschil tussen:  
 grep root /etc/* 2>&1 >file  
 grep root /etc/* >file 2>&1  
-3.2 Variabelen  
+
+### Summary
+
+- In `grep root /etc/* 2>&1 >file`, only `stdout` goes to `file`, and `stderr` goes to the console.
+- In `grep root /etc/* >file 2>&1`, both `stdout` and `stderr` are redirected to `file`.
+
+The second command (`>file 2>&1`) is more commonly used when you want both the output and errors to be captured in the same file.
+
+
+## 3.2 Variabelen  
 1. Maak een variabele "docs" met het volledige path van je Documents folder.  
+	```bash
+	docs="/home/$USER/Documents"
+```
 ◦ gebruik docs om een bestand aan te maken in je Documents folder  
+```bash
+	touch $docs
+```
 ◦ gebruik docs om een lijst van alle bestanden in die folder te zien.  
+```bash
+	ls $docs
+```
 2. Wat zit er in de variabelen LOGNAME, USER, SHELL, HOME, PATH?  
-3. Wat doet het commando which? Wat heeft dit te maken met de variabele PATH?  
+	1.logname = naam waar je met ingelogd bent
+1. Wat doet het commando which? Wat heeft dit te maken met de variabele PATH?  
 p. 2
