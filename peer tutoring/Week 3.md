@@ -52,6 +52,14 @@ The second command (`>file 2>&1`) is more commonly used when you want both the o
 	ls $docs
 ```
 2. Wat zit er in de variabelen LOGNAME, USER, SHELL, HOME, PATH?  
-	1.logname = naam waar je met ingelogd bent
+	1.$LOGNAME = naam waar je met ingelogd bent
+	2.$USER= gebruikersnaam
+	3.$SHELL= geeft de shell die je gebruikt (/bin/bash)
+	4.$HOME= je home directory
+	5.$PATH= geeft de plekken waar je programmas kan vinden om ze aant te roepen zonder het volledige pad elke keer te geven
+	
 1. Wat doet het commando which? Wat heeft dit te maken met de variabele PATH?  
-p. 2
+```bash
+which ls
+```
+	dit geeft aan waar het commando zich bevind en gebruikt hiervoor de path variable
