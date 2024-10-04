@@ -18,7 +18,7 @@
   stealth
   
 6. Welke scantool werd gebruikt om de target te scannen? Hoe weet je dit?  
-  
+  nmap 
   
 7. Welke commando's heeft de aanvaller gebruikt? (geef deze zo volledig mogelijk met alle parameters)  
   
