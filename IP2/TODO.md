@@ -2,3 +2,4 @@
  - [ ] mogelijk handmatig via menu
  - [ ] db: studenten ,cursussen, inschijvingen, aanwezigheden
  - [ ] mailinglist
+ - [ ] 
