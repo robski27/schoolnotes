@@ -15,7 +15,7 @@
   decoy
   xmas 
   ack
-  
+  stealth
   
 6. Welke scantool werd gebruikt om de target te scannen? Hoe weet je dit?  
   
