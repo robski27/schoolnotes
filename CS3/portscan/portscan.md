@@ -19,6 +19,8 @@ Met behulp van p0f, ettercap en snort kan je automatisch analyses laten uitvoere
 	  22,80,53
 1. De target werd op minstens 4 manieren gescand. Geef de 4 methodes en leg uit hoe ze werken.  
 	*1. xmas*
+	*2. reset*
+	
   
   
 6. Welke scantool werd gebruikt om de target te scannen? Hoe weet je dit?  
