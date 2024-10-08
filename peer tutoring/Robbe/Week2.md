@@ -1,4 +1,4 @@
-
+#peertutoring 
 Oefeningen Linux week 2  
 2.1 Paden  
 Hieronder zie je een lijst van paden. Welke paden zijn relatief, absoluut of fout in  

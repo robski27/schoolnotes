@@ -1,3 +1,4 @@
+#peertutoring 
 ## 3.1 Redirecting en pipelining  
 1. Wat doet volgend commando: echo "Hello, world!" | figlet  
 ```bash
