@@ -2,7 +2,7 @@
 
 
 **OPGAVE**
-
+a
 1. Zorg bij beide virtuele machines minstens voor een netwerkkaart van het type "Host Only" en vboxnet0 (daarbuiten mag je ook nog een "NAT" netwerkkaart hebben, zodat je bijvoorbeeld nog op internet kan. Stel bij de Advanced settings de netwerkkaart in met Promiscuous op Allow All, zodat je kan sniffen. 
 
 2. Netwerkverbinding testen:  
