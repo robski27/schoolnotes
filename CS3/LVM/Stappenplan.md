@@ -4,5 +4,5 @@
 stap 1 : 
 
 ```bash
-
+fdisk /dev/sdx
 ```
